@@ -1,4 +1,5 @@
 # Cart-Pole Optimal Control
+[Screencast from 02-20-2025 12_15_23 PM.webm](https://github.com/user-attachments/assets/d63818d4-6a36-4d7f-9fd7-7779781ce95a)
 
 ## Overview
 
@@ -34,9 +35,7 @@ The earthquake force generator introduces external perturbations through:
 ```python
 self.Q = np.diag([2.0, 5.0, 15.0, 8.0])  # State cost
 self.R = np.array([[0.10]])  # Control cost
-[Screencast from 02-20-2025 12_15_23 PM.webm](https://github.com/user-attachments/assets/f48aab48-6112-4089-aa4f-118bf7f6decb)
-
-
+[Screencast from 02-20-2025 12_15_23 PM.webm](https://github.com/user-attachments/assets/d63818d4-6a36-4d7f-9fd7-7779781ce95a)
 
 **Results**: Due to inadequate tuning, the system fails to maintain stability, and the pendulum falls after 15 seconds.
 
