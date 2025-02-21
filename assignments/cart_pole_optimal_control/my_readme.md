@@ -34,8 +34,8 @@ The earthquake force generator introduces external perturbations through:
 ```python
 self.Q = np.diag([2.0, 5.0, 15.0, 8.0])  # State cost
 self.R = np.array([[0.10]])  # Control cost
-```[Screencast from 02-20-2025 12_15_23 PM.webm](https://github.com/user-attachments/assets/1e1e1ccc-deb4-45e6-97c7-3b11f1470d0f)
-[Screencast from 02-20-2025 12_15_23 PM.webm](https://github.com/user-attachments/assets/6039139f-ca21-42bc-a04f-04741956c041)
+[Screencast from 02-20-2025 12_15_23 PM.webm](https://github.com/user-attachments/assets/f48aab48-6112-4089-aa4f-118bf7f6decb)
+
 
 
 **Results**: Due to inadequate tuning, the system fails to maintain stability, and the pendulum falls after 15 seconds.
